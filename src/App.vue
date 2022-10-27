@@ -1,23 +1,9 @@
 <template>
-    <div>
-        <router-view></router-view>
-    </div>
+	<div>
+		<router-view></router-view>
+	</div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
-</script>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #01032baa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<style scoped></style>

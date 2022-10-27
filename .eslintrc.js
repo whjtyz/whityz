@@ -27,7 +27,7 @@ module.exports = defineConfig({
 	rules: {
 		// @typescript-eslint
 		"@typescript-eslint/explicit-function-return-type": "off", // 需要函数和类方法的显式返回类型
-		// '@typescript-eslint/no-explicit-any': 'off', // 禁止使用该 any 类型
+		"@typescript-eslint/no-explicit-any": "off", // 禁止使用该 any 类型
 		"@typescript-eslint/no-var-requires": "off", // 不允许使用 require 语句，除了在 import 语句中
 		"@typescript-eslint/no-empty-function": "off", // 禁止空函数
 		"@typescript-eslint/no-use-before-define": "off", // 在定义之前禁止使用变量
@@ -36,7 +36,7 @@ module.exports = defineConfig({
 		"@typescript-eslint/no-non-null-assertion": "off", // '!'不允许使用后缀运算符的非空断言
 		"@typescript-eslint/explicit-module-boundary-types": "off", // 需要导出函数和类的公共类方法的显式返回和参数类型
 		"@typescript-eslint/no-unused-vars": [
-			"error",
+			"off",
 			{
 				argsIgnorePattern: "^_",
 				varsIgnorePattern: "^_",

@@ -2,12 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue + TS</title>
+    <title>merry christmas</title>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
+    <script>
+      //页面标题文字变化
+      document.addEventListener('visibilitychange',function(){
+        if( document.visibilityState == 'hidden' ) {
+          normal_title = document.title
+          document.title = "ヾ(≧▽≦*)o等你回来哦"
+        } else {
+          document.title = "(´▽`ʃ♡ƪ)欢迎回来"
+          setTimeout(() => {
+            document.title = normal_title
+          }, 1500);
+        }
+      })
+    </script>
   </body>
 </html>

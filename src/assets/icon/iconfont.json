@@ -1,0 +1,58 @@
+{
+  "id": "3733255",
+  "name": "christmas",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12438677",
+      "name": "圣诞花环",
+      "font_class": "shengdanhuahuan",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "12438679",
+      "name": "雪花",
+      "font_class": "xuehua",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "12438686",
+      "name": "麋鹿",
+      "font_class": "milu",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "12438692",
+      "name": "铃铛",
+      "font_class": "lingdang",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "12438693",
+      "name": "蜡烛",
+      "font_class": "lazhu",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "12438700",
+      "name": "雪人",
+      "font_class": "xueren",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "12438701",
+      "name": "圣诞树",
+      "font_class": "shengdanshu",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    }
+  ]
+}

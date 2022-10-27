@@ -2,7 +2,6 @@
   "name": "merry-christmas",
   "private": true,
   "version": "0.0.0",
-
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -11,6 +10,7 @@
   "dependencies": {
     "path": "^0.12.7",
     "process": "^0.11.10",
+    "sass": "^1.55.0",
     "vue": "^3.2.37",
     "vue-router": "4"
   },
