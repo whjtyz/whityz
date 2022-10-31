@@ -9,11 +9,11 @@
 	--size: 1vw;
 	width: var(--size);
 	height: var(--size);
-	background: url(./snow.png) no-repeat; //雪花图片 也可以画圆
+	background: url(@/assets/weather/snow/snow.svg) no-repeat; //雪花图片 也可以画圆
 	background-size: 100% 100%;
 	position: fixed;
-	top: -5vh; //出事高度在屏幕外 效果更真实
-	z-index: -10; //背景图层不遮挡上面元素
+	top: -3vh; //出事高度在屏幕外 效果更真实
+	z-index: 0; //背景图层不遮挡上面元素
 }
 
 @keyframes snowfall {
@@ -31,7 +31,7 @@
 		//雪花初始位置
 		left: #{random(150)}vw;
 		//雪花从顶到底移动的动画 动画时间可以调整雪花速度
-		animation: snowfall #{5 + random(8)}s linear infinite;
+		animation: snowfall #{10 + random(8)}s linear infinite;
 		animation-delay: -#{random(10)}s;
 	}
 }
