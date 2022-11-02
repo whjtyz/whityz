@@ -1,17 +1,22 @@
 <template>
 	<div class="homePage">
-		<snow></snow>
+		<div class="smallWindow">
+			<sakura></sakura>
+		</div>
 	</div>
 </template>
 
 <script setup lang="ts">
-import snow from '@/components/Weather/snow/snow.vue'
+import sakura from '@/components/Weather/sakura/sakura.vue'
 </script>
 
 <style scoped lang="scss">
 .homePage {
 	width: 100%;
 	height: 100%;
-	background-color: black;
+	.smallWindow {
+		width: 100px;
+		height: 100px;
+	}
 }
 </style>

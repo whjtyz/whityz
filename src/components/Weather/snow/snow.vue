@@ -11,9 +11,9 @@
 	height: var(--size);
 	background: url(@/assets/weather/snow/snow.svg) no-repeat; //雪花图片 也可以画圆
 	background-size: 100% 100%;
-	position: fixed;
+	position: fixed; //定位元素，脱离文档流
 	top: -3vh; //出事高度在屏幕外 效果更真实
-	z-index: 0; //背景图层不遮挡上面元素
+	z-index: -1; //背景图层不遮挡上面元素
 }
 
 @keyframes snowfall {
