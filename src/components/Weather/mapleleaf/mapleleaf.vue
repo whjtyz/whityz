@@ -1,8 +1,9 @@
 <template>
+	<div></div>
 </template>
 
 <script setup>
-import { startSakura } from './StartSakura'
+import { startSakura } from './startMapleleaf'
 startSakura()
 </script>
 

@@ -1,5 +1,5 @@
 //全屏樱花飘落
-import url from '@/assets/weather/sakura/new-sakura.png'
+import url from '@/assets/weather/autumn/fy.png'
 //解决静态图片处理问题
 let stop, staticx // eslint-disable-line no-unused-vars
 let img = new Image()
@@ -17,7 +17,7 @@ function Sakura(x, y, s, r, fn) {
 Sakura.prototype.draw = function (cxt) {
 	cxt.save()
 	//这个数值是花瓣大小,电脑端网页 40 效果最好
-	let xc = 40 * this.s
+	let xc = 50 * this.s
 	cxt.translate(this.x, this.y)
 	cxt.rotate(this.r)
 	cxt.drawImage(img, 0, 0, xc, xc)
@@ -123,7 +123,7 @@ export function startSakura() {
 	canvas.width = window.innerWidth
 	canvas.setAttribute('style', 'position: fixed;left: 0;top: 0;pointer-events: none;')
 	canvas.setAttribute('id', 'canvas_sakura')
-	document.getElementsByClassName('sakura')[0].appendChild(canvas)
+	document.getElementsByClassName('mapleleaf')[0].appendChild(canvas)
 	cxt = canvas.getContext('2d')
 	let sakuraList = new SakuraList()
 	for (let i = 0; i < 10; i++) {

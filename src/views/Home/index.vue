@@ -1,13 +1,20 @@
 <template>
 	<div class="homePage">
 		<div class="smallWindow">
-			<sakura></sakura>
+			<sakura v-if="state.buttonUse"></sakura>
+		</div>
+		<div>
 		</div>
 	</div>
 </template>
 
 <script setup lang="ts">
-import sakura from '@/components/Weather/sakura/sakura.vue'
+import { reactive } from 'vue'
+
+
+const state = reactive({
+	buttonUse: false
+})
 </script>
 
 <style scoped lang="scss">

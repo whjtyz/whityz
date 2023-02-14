@@ -13,7 +13,7 @@
 	background-size: 100% 100%;
 	position: fixed; //定位元素，脱离文档流
 	top: -3vh; //出事高度在屏幕外 效果更真实
-	z-index: -1; //背景图层不遮挡上面元素
+	z-index: 1; //背景图层不遮挡上面元素
 }
 
 @keyframes snowfall {
